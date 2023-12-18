@@ -10,6 +10,7 @@ import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Service;
 import untitled.config.kafka.KafkaProcessor;
+import untitled.domain.*;
 
 //<<< Clean Arch / Inbound Adaptor
 @Service
